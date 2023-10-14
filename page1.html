@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p class="logo">Medsoft</p>
+        <a href="page2.html"><p>Перейти к таблице всех пациентов</p></a>
+    </header>
+    <div class="main">
+        <div class="main-inner">
+            <div class="main-inner-top-block">
+
+                <div class="id-area">
+                    <label for="id-input">Выберите id:</label>
+                    <select id="id-input">
+                        <option>0</option>
+                        <option>1</option>
+                      </select>
+                </div>
+
+                <div class="main-inner-top-block__info-block">
+                    <input id="user-name" type="text" placeholder="ФИО">
+                    <input id="user-adress" type="text" placeholder="Адрес">
+                    <input id="user-number" type="text" placeholder="Телефон">
+                    <input id="user-help-reason" type="text" placeholder="Причина помощи">
+                </div>
+
+                <div class="main-inner-top-block__new-property-block">
+                    <label for="blank">Добавление нового свойства:</label>
+                    <span id="blank"></span>
+
+                    <div class="main-inner-top-block__new-property-block__inputs">
+                        <input id="newProperty-name" type="text" placeholder="Название свойства">
+                        <input id="newProperty-value" type="text" placeholder="Значение свойства">
+                    </div>
+
+                    <button id="addNewProperty" type="button">Добавить свойство</button>
+                </div>
+
+            </div>
+
+            <div class="main-inner-bottom-block">
+                <button id="addEntry" type="button">Добавить запись</button>
+                <button id="clearForm" type="button">Очистить форму</button>
+                <button id="deleteEntry" type="button">Удалить запись</button>
+                <button id="printAll" type="button">Вывести всех нужд.</button>
+
+            </div>
+        </div>
+    </div>
+
+    <p id="info"></p>
+</body>
+</html>

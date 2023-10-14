@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+}
+
+header{
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    width: 100vw;
+    height: 10vh;
+    margin-bottom: 50px;
+}
+
+header p{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+header .logo{
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+
+.main-inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-inner-top-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.main-inner-top-block__info-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-inner-top-block__new-property-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-inner-top-block__new-property-block__inputs{
+    display: flex;
+}
+
+.main-inner-bottom-block{
+    display: flex;
+    padding: 10px;
+}
+
+select{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+input{
+    width: 15vw;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+
+button{
+    width: 10vw;
+    height: 5vh;
+    background-color: dodgerblue;
+    font-weight: bold;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#info{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: brown;
+    font-weight: bold;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main2.js" defer></script>
+    <title>Таблица всех пациентов</title>
+</head>
+<body>
+    <header>
+        <p class="logo">Medsoft</p>
+        <a href="page1.html"><p>Вернуться к добавлению пациентов</p></a>
+    </header>
+    <div class="main">
+        <div class="main-inner">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>ФИО</th>
+                        <th>Телефон</th>
+                        <th>Причина помощи</th>
+                        <!-- Здесь могут быть добавлены дополнительные колонки для новых свойств -->
+                    </tr>
+                </thead>
+                <tbody id="user-table-body">
+                    <!-- Здесь будет динамически добавляться информация о пользователях -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="display_users.js" defer></script>
+</body>
+</html>
